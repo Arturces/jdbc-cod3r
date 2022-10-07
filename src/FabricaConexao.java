@@ -7,7 +7,7 @@ public class FabricaConexao {
    public static Connection getConexao(){
 
        try {
-           final String url = "jdbc:mysql://localhost";
+           final String url = "jdbc:mysql://localhost/jdbc_cod3r";
            final String usuario = "root";
            final String senha = "584412";
 
